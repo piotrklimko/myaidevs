@@ -1,0 +1,5 @@
+Do katalogu lekcje dodałem nową, w pliku md zaczynającym się od s05e01. Zapoznaj się, podsumuj o czym jest i zaproponuj rozwiązanie zadania.
+Chciałbym, żeby to zadanie rozwiązać skryptem w pythonie, takim "agentowym", ok?
+Po rozwiązaniu zadania dodaj do skryptu obszerne komentarze, żebym mógł z nich uczyć się tego co było w lekcji.
+Zamiast curl używaj pythona, tak żebym nie musiał zatwierdzać każdego kroku.
+Jesteśmy wewnątrz kontenera - venv nie jest potrzebny.

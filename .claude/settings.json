@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(apt list:*)",
+      "Bash(apt-get update:*)",
+      "Bash(python -c \"from gtts import gTTS; print\\('gTTS ok'\\)\")",
+      "Bash(python -c \"from pydub import AudioSegment; print\\('pydub ok'\\)\")",
+      "Bash(wait)",
+      "Bash(kill -0 2342)",
+      "Bash(python3 -c \"from gtts import gTTS; print\\('gTTS ok'\\)\")",
+      "Bash(python3 -c \"from pydub import AudioSegment; print\\('pydub ok'\\)\")",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 solve.py)",
+      "Bash(ffprobe -i /tmp/test_edge.mp3)",
+      "Bash(cat /tmp/claude-0/-workspaces-aidevs/ac4517b6-21b9-4868-b9ae-17364b55cd3c/tasks/*.output)",
+      "WebSearch",
+      "WebFetch(domain:openrouter.ai)",
+      "Bash(python test_voice.py)",
+      "Bash(python solve.py)",
+      "Bash(python agent.py)",
+      "Bash(python S05E04/solve.py)",
+      "Bash(python -u S05E04/solve.py)",
+      "Bash(tee /tmp/solve_out.txt)",
+      "Bash(pkill -f \"S05E04/solve\")",
+      "Bash(python3 solve_auto.py)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(gh auth:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

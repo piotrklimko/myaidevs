@@ -1,0 +1,21 @@
+{
+  "name": "AI_devs",
+  "image": "ubuntu:24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "curl -fsSL https://claude.ai/install.sh | bash && echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.bashrc && pip install --break-system-packages -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "anthropic.claude-code"
+      ]
+    }
+  },
+  "mounts": [
+    "source=claude-config,target=/root/.claude,type=volume",
+    "source=claude-data,target=/root/.local/share/claude,type=volume"
+  ]
+}
